@@ -1,0 +1,5 @@
+age: 24
+Gender: M
+Vision: Yes Normal
+Color: Yes CB
+AI Exposure: No Exposure
