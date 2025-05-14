@@ -1,0 +1,2 @@
+Model                                           #param  SROCC  PLCC
+NN on fine-tuned JOINT rationality features 47,547,237 0.6798 0.7421
