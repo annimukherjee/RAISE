@@ -1,6 +1,0 @@
-S_No,PID,Session,Image,Rating,Timestamp
-1,pid-37,sess-0,Bad.png,100,2024-09-02 18:55:23
-2,pid-37,sess-0,Poor.jpeg,63.9097744360902,2024-09-02 18:55:42
-3,pid-37,sess-0,Fair.jpeg,14.2857142857143,2024-09-02 18:55:51
-4,pid-37,sess-0,Good.png,78.1954887218045,2024-09-02 18:55:59
-5,pid-37,sess-0,Excellent.png,77.4436090225564,2024-09-02 18:56:06
