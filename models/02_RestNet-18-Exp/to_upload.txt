@@ -1,2 +1,0 @@
-Model                    #param  SROCC  PLCC
-NN on ResNet-18 features 230,145 0.6684 0.739
