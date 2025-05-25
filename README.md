@@ -1,1 +1,68 @@
-# RAISE
+# RAISE: Realness Assessment for Image Synthesis and Evaluation
+Aniruddha Mukherjee*, Spriha Dubey*, Somdyuti Paul
+
+
+IEEE, Multimedia Information Processing and Retrieval, 2025
+
+
+
+## Introduction
+This repository contains the dataset and code for our paper RAISE: Realness Assessment for Image Synthesis and Evaluation, accepted in MIPR 2025.
+
+## Requirements
+All the requirements to run our code are specified in the requirements.txt file. Here's how to set it up:
+
+
+```
+# 1) Clone the repo and jump into it
+> https://github.com/annimukherjee/RAISE.git
+> cd RAISE
+
+# 2) Create a clean Conda environment
+> conda create -n raise python=3.10
+
+# 3) Activate the environment
+> conda activate raise
+
+# 4) Install all dependencies listed in requirements.txt
+> pip install -r requirements.txt
+```
+
+## RAISE Dataset
+The RAISE dataset comprises **600** images out of which **480** are AI generated and **120** are real photographic images and the corresponding subjective realness ratings as MOS scores. The images and corresponding ratings are made available under the `/dataset` directory. 
+
+There are 510 images in the training set and 90 images in the test set. The real images are named as `r1.png`, `r2.png`, ... , `r120.png` and the AI generated images are named as `f1.png`, `f2.png`, ..., `f480.png`
+
+## Baslines Models
+
+We provide the training as well as evaluation of four baseline models for performing realness prediction on the RAISE dataset as follows:
+
+### Decision Tree
+
+
+### CNN Model
+
+
+### Neural Network with Pretrained ResNet-18 Features
+
+
+### Neural Network with Pretrained ResNet-50 features from JOINT Rationality Branch
+
+
+## Contact
+For questions, please email the corresponding authors
+- Aniruddha Mukherjee: mukh.aniruddha@gmail.com
+- Spriha Dubey: sprihadubey2004@gmail.com 
+
+## Citations
+If you make use of the RAISE dataset and the code shared in this repository, please cite our paper as:
+```
+@inproceedings{mukherjee2025raise,
+  title     = {RAISE: Realness Assessment for Image Synthesis and Evaluation},
+  author    = {Mukherjee, Aniruddha and Dubey, Spriha and Paul, Somdyuti},
+  year      = {2025},
+  booktitle = { arxiv link},
+}
+```
+
+Permission is granted for non-commercial use only under CC-BY-NC
