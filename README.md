@@ -39,17 +39,24 @@ We provide the training as well as evaluation of four baseline models for perfor
 
 ### Decision Tree
 
+[Notebook](https://github.com/annimukherjee/RAISE/blob/main/models/00_ml-models/02_ml-features-modelling.ipynb)
 
 
 
 ### CNN Model
 
+[Train Notebooks](https://github.com/annimukherjee/RAISE/blob/main/models/01_CNN/0_base_cnn-train.ipynb) | [Test Notebook](https://github.com/annimukherjee/RAISE/blob/main/models/01_CNN/1_base_cnn-test.ipynb)
+
 
 ### Neural Network with Pretrained ResNet-18 Features
+
+[Train Notebook](https://github.com/annimukherjee/RAISE/blob/main/models/02_RestNet-18-Exp/0_transf-learning-train.ipynb) | [Test Notebook](https://github.com/annimukherjee/RAISE/blob/main/models/02_RestNet-18-Exp/1_transf-learning-test.ipynb)
 
 
 ### Neural Network with Pretrained ResNet-50 features from JOINT Rationality Branch
 
+[Train Notebook](https://github.com/annimukherjee/RAISE/blob/main/models/04_NN-fine-tuned-JOINT/0_joint-resnet-train.ipynb) | [Test Notebook
+](https://github.com/annimukherjee/RAISE/blob/main/models/04_NN-fine-tuned-JOINT/1_joint-resnet-test.ipynb)
 
 ## Contact
 For questions, please email the corresponding authors
