@@ -15,7 +15,7 @@ All the requirements to run our code are specified in the requirements.txt file.
 
 ```
 # 1) Clone the repo and jump into it
-> https://github.com/annimukherjee/RAISE.git
+> git clone https://github.com/annimukherjee/RAISE.git
 > cd RAISE
 
 # 2) Create a clean Conda environment
