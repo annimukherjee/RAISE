@@ -26,7 +26,7 @@ The RAISE dataset comprises **600** images out of which **480** are AI generated
 
 There are 510 images in the training set and 90 images in the test set. The real images are named as `r1.png`, `r2.png`, ... , `r120.png` and the AI generated images are named as `f1.png`, `f2.png`, ..., `f480.png`
 
-## Baslines Models
+## Baseline Models
 
 We provide the training as well as evaluation of four baseline models for performing realness prediction on the RAISE dataset as follows:
 
@@ -52,7 +52,7 @@ We provide the training as well as evaluation of four baseline models for perfor
 ](https://github.com/annimukherjee/RAISE/blob/main/models/04_NN-fine-tuned-JOINT/1_joint-resnet-test.ipynb)
 
 ## Contact
-For questions, please email the corresponding authors
+For questions, please email the corresponding authors:
 - Aniruddha Mukherjee: mukh.aniruddha@gmail.com
 - Spriha Dubey: sprihadubey2004@gmail.com 
 
