@@ -1,5 +1,5 @@
-# RAISE: Realness Assessment for Image Synthesis
-and Evaluation
+# RAISE: Realness Assessment for Image Synthesis and Evaluation  
+
 This repository contains the dataset and code for our paper RAISE: Realness Assessment for Image Synthesis and Evaluation, accepted in MIPR 2025.
 
 ## Requirements
