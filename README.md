@@ -59,12 +59,15 @@ For questions, please email the corresponding authors:
 ## Citations
 If you make use of the RAISE dataset and the code shared in this repository, please cite our paper as:
 ```
-@inproceedings{mukherjee2025raise,
-  title     = {RAISE: Realness Assessment for Image Synthesis and Evaluation},
-  author    = {Mukherjee, Aniruddha and Dubey, Spriha and Paul, Somdyuti},
-  year      = {2025},
-  booktitle = { arxiv link},
+@misc{raise,
+      title={RAISE: Realness Assessment for Image Synthesis and Evaluation}, 
+      author={Aniruddha Mukherjee and Spriha Dubey and Somdyuti Paul},
+      year={2025},
+      eprint={2505.19233},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.19233}, 
 }
 ```
 
-Permission is granted for non-commercial use only under CC-BY-NC
+Permission is granted for non-commercial use only under `CC-BY-NC`.
