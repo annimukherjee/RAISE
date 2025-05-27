@@ -1,11 +1,9 @@
 # RAISE: Realness Assessment for Image Synthesis and Evaluation  
 
-This repository contains the dataset and code for our paper RAISE: Realness Assessment for Image Synthesis and Evaluation, accepted in MIPR 2025.
+This repository contains the dataset and code for our paper _RAISE: Realness Assessment for Image Synthesis and Evaluation_, accepted at [MIPR 2025](https://sites.google.com/view/mipr-2025/ieee-mipr).
 
 ## Requirements
-All the requirements to run our code are specified in the requirements.txt file. Here's how to set it up:
-
-
+All the requirements to run our code are specified in the `requirements.txt` file. Here's how to set it up:
 ```
 # 1) Clone the repo and jump into it
 > git clone https://github.com/annimukherjee/RAISE.git
@@ -24,7 +22,7 @@ All the requirements to run our code are specified in the requirements.txt file.
 ## RAISE Dataset
 The RAISE dataset comprises **600** images out of which **480** are AI generated and **120** are real photographic images along with their corresponding subjective realness ratings as MOS scores. The images and corresponding ratings are made available under the `/dataset` directory. 
 
-There are 510 images in the training set and 90 images in the test set. The real images are named as `r1.png`, `r2.png`, ... , `r120.png` and the AI generated images are named as `f1.png`, `f2.png`, ..., `f480.png`
+There are **510** images in the training set and **90** images in the test set. The real images are named as `r1.png`, `r2.png`, ... , `r120.png` and the AI generated images are named as `f1.png`, `f2.png`, ..., `f480.png`.
 
 ## Baseline Models
 
@@ -33,7 +31,6 @@ We provide the training as well as evaluation of four baseline models for perfor
 ### Decision Tree
 
 [Notebook](https://github.com/annimukherjee/RAISE/blob/main/models/00_ml-models/02_ml-features-modelling.ipynb)
-
 
 
 ### CNN Model
