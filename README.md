@@ -91,7 +91,7 @@ If you make use of the RAISE dataset or the code shared in this repository, plea
 This project is provided for **non-commercial use only**.
 
 You may use, copy, modify, and share this project for **personal, educational, or research purposes**.  
-**Commercial use of any part of this project is strictly prohibited** without explicit written permission from the author.
+**Commercial use of any part of this project is strictly prohibited** without explicit written permission from the authors.
 
 ---
 
