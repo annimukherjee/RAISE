@@ -1,4 +1,4 @@
-# RAISE: Realness Assessment for Image Synthesis and Evaluation  
+# [RAISE: Realness Assessment for Image Synthesis and Evaluation](https://arxiv.org/pdf/2505.19233)  
 
 This repository contains the dataset and code for our paper _RAISE: Realness Assessment for Image Synthesis and Evaluation_, accepted at [MIPR 2025](https://sites.google.com/view/mipr-2025/ieee-mipr).
 
@@ -50,7 +50,7 @@ dataset/
 
 ## Baseline Models
 
-We provide the training as well as evaluation of four baseline models for performing realness prediction on the RAISE dataset as follows:
+We provide the training as well as evaluation of the following baseline models for performing realness prediction on the RAISE dataset:
 
 
 | Model                                           | Training Notebook                                                                     | Testing Notebook                                                                  |
@@ -88,7 +88,10 @@ If you make use of the RAISE dataset or the code shared in this repository, plea
 
 ## License
 
-This work is available for **non-commercial** use under **CC-BY-NC**.
+This project is provided for **non-commercial use only**.
+
+You may use, copy, modify, and share this project for **personal, educational, or research purposes**.  
+**Commercial use of any part of this project is strictly prohibited** without explicit written permission from the authors.
 
 ---
 
