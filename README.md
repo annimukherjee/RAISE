@@ -1,4 +1,4 @@
-# RAISE: Realness Assessment for Image Synthesis and Evaluation  
+# [RAISE: Realness Assessment for Image Synthesis and Evaluation](https://arxiv.org/pdf/2505.19233)  
 
 This repository contains the dataset and code for our paper _RAISE: Realness Assessment for Image Synthesis and Evaluation_, accepted at [MIPR 2025](https://sites.google.com/view/mipr-2025/ieee-mipr).
 
