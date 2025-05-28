@@ -29,18 +29,36 @@ There are **510** images in the training set and **90** images in the test set.
 * Real images: `r1.png`–`r120.png`
 * AI-generated images: `f1.png`–`f480.png`
 
+
+### Dataset Structure
+
+```
+dataset/
+├── images/
+│   ├── test_images/
+│   │   ├── f104.png
+│   │   ├── ...
+│   │   └── r83.png
+│   └── train_images/
+│       ├── f1.png
+│       ├── ...
+│       └── r115.png
+└── ratings/
+    ├── test.csv
+    └── train.csv
+```
+
 ## Baseline Models
 
 We provide the training as well as evaluation of four baseline models for performing realness prediction on the RAISE dataset as follows:
 
 
-
 | Model                                           | Training Notebook                                                                     | Testing Notebook                                                                  |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | Decision Tree (handcrafted features)            | [02\_ml-features-modelling.ipynb](models/00_ml-models/02_ml-features-modelling.ipynb) |                                                                                   |
-| CNN (from scratch)                              | [0\_base\_cnn-train.ipynb](models/01_CNN/0_base_cnn-train.ipynb)                      | [1\_base\_cnn-test.ipynb](models/01_CNN/1_base_cnn-test.ipynb)                    |
+| CNN                              | [0\_base\_cnn-train.ipynb](models/01_CNN/0_base_cnn-train.ipynb)                      | [1\_base\_cnn-test.ipynb](models/01_CNN/1_base_cnn-test.ipynb)                    |
 | Transfer Learning (ResNet-18)                   | [0\_transf-learning-train.ipynb](models/02_ResNet-18/0_transf-learning-train.ipynb)   | [1\_transf-learning-test.ipynb](models/02_ResNet-18/1_transf-learning-test.ipynb) |
-| Joint Fine-Tuned (ResNet-50 Rationality Branch) | [0\_joint-resnet-train.ipynb](models/04_Joint-ResNet/0_joint-resnet-train.ipynb)      | [1\_joint-resnet-test.ipynb](models/04_Joint-ResNet/1_joint-resnet-test.ipynb)    |
+| JOINT Fine-Tuned (JOINT Rationality Branch) | [0\_joint-resnet-train.ipynb](models/04_Joint-ResNet/0_joint-resnet-train.ipynb)      | [1\_joint-resnet-test.ipynb](models/04_Joint-ResNet/1_joint-resnet-test.ipynb)    |
 
 
 
@@ -71,3 +89,7 @@ If you make use of the RAISE dataset or the code shared in this repository, plea
 ## License
 
 This work is available for **non-commercial** use under **CC-BY-NC**.
+
+---
+
+*For questions about the dataset, models, or reproduction of results, please open an issue or contact the authors directly.*
