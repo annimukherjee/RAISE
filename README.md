@@ -88,8 +88,12 @@ If you make use of the RAISE dataset or the code shared in this repository, plea
 
 ## License
 
-This work is available for **non-commercial** use under **CC-BY-NC**.
+This project is provided for **non-commercial use only**.
 
+You may use, copy, modify, and share this project for **personal, educational, or research purposes**.  
+**Commercial use of any part of this project is strictly prohibited** without explicit written permission from the author.
+
+If you are interested in using this project for commercial purposes, please contact [your.email@example.com].
 ---
 
 *For questions about the dataset, models, or reproduction of results, please open an issue or contact the authors directly.*
