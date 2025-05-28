@@ -50,7 +50,7 @@ dataset/
 
 ## Baseline Models
 
-We provide the training as well as evaluation of four baseline models for performing realness prediction on the RAISE dataset as follows:
+We provide the training as well as evaluation of the following baseline models for performing realness prediction on the RAISE dataset as follows:
 
 
 | Model                                           | Training Notebook                                                                     | Testing Notebook                                                                  |
