@@ -55,12 +55,16 @@ We provide the training as well as evaluation of the following baseline models f
 
 | Model                                           | Training Notebook                                                                     | Testing Notebook                                                                  |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Decision Tree (handcrafted features)            | [02\_ml-features-modelling.ipynb](models/00_ml-models/02_ml-features-modelling.ipynb) |                                                                                   |
-| CNN                              | [0\_base\_cnn-train.ipynb](models/01_CNN/0_base_cnn-train.ipynb)                      | [1\_base\_cnn-test.ipynb](models/01_CNN/1_base_cnn-test.ipynb)                    |
-| Transfer Learning (ResNet-18)                   | [0\_transf-learning-train.ipynb](models/02_ResNet-18/0_transf-learning-train.ipynb)   | [1\_transf-learning-test.ipynb](models/02_ResNet-18/1_transf-learning-test.ipynb) |
-| JOINT Fine-Tuned (JOINT Rationality Branch) | [0\_joint-resnet-train.ipynb](models/04_Joint-ResNet/0_joint-resnet-train.ipynb)      | [1\_joint-resnet-test.ipynb](models/04_Joint-ResNet/1_joint-resnet-test.ipynb)    |
+| Decision Tree (handcrafted features)            | [02\_ml-features-modelling.ipynb](models/00_ML-FeatDesign/02_ml-features-modelling.ipynb) |                                                                                   |
+| CNN                              | [0\_base\_cnn-train.ipynb](models/01_CNN-FeatLearning/0_base_cnn-train.ipynb)                      | [1\_base\_cnn-test.ipynb](models/01_CNN-FeatLearning/1_base_cnn-test.ipynb)                    |
+| Transfer Learning (ResNet-18)                   | [0\_transf-learning-train.ipynb](models/02_RestNet-18-Transf-Learn/0_transf-learning-train.ipynb)   | [1\_transf-learning-test.ipynb](models/02_RestNet-18-Transf-Learn/1_transf-learning-test.ipynb) |
+| JOINT Fine-Tuned (JOINT Rationality Branch) | [0\_joint-resnet-train.ipynb](models/04_NN-fine-tuned-JOINT/0_joint-resnet-train.ipynb)      | [1\_joint-resnet-test.ipynb](models/04_NN-fine-tuned-JOINT/1_joint-resnet-test.ipynb)    |
 
 
+A few important considerations for JOINT Fine-Tuned:
+
+ - Chen et al. ([pdf](https://ieeexplore.ieee.org/document/10771738)) provide the weights to their JOINT Model (`JOINT_2024.pth`) in their [official implementation](https://github.com/zijianchen98/AGIN/tree/main). The weights can be found linked to in their [`README file`](https://github.com/zijianchen98/AGIN/blob/main/README.md). You can also directly download it from [here](https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYzIxOTFjYjAxY2JmMDAyL0VjX2xuY0N4R1paQ25qb2NUNDAtc24wQjVTcmcwekZuNkgtOTVFb3B2eEpJelE%5FZT10YWlUOVI&cid=0C2191CB01CBF002&id=C2191CB01CBF002%21sc09de5cf19b142969e3a1c4f8d3eb27d&parId=C2191CB01CBF002%21s10403dccf95e47979e25d26520e84d7b&o=OneUp) (same link). Please place these weights in a new folder called `./models/04_NN-fine-tuned-JOINT/jointweights/`. 
+ - Also, please download the [JOINT.py file](https://github.com/zijianchen98/AGIN/blob/main/JOINT/models/JOINT.py) from Chen et al.'s ([pdf](https://ieeexplore.ieee.org/document/10771738)) [official implementation](https://github.com/zijianchen98/AGIN/tree/main) and place this file in the `./models/04_NN-fine-tuned-JOINT/` directory.
 
 
 
