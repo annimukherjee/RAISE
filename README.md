@@ -61,10 +61,11 @@ We provide the training as well as evaluation of the following baseline models f
 | JOINT Fine-Tuned (JOINT Rationality Branch) | [0\_joint-resnet-train.ipynb](models/04_NN-fine-tuned-JOINT/0_joint-resnet-train.ipynb)      | [1\_joint-resnet-test.ipynb](models/04_NN-fine-tuned-JOINT/1_joint-resnet-test.ipynb)    |
 
 
-A few important considerations for JOINT Fine-Tuned:
+A few important considerations for **JOINT Fine-Tuned**:
 
  - Chen et al. ([pdf](https://ieeexplore.ieee.org/document/10771738)) provide the weights to their JOINT Model (`JOINT_2024.pth`) in their [official implementation](https://github.com/zijianchen98/AGIN/tree/main). The weights can be found linked to in their [`README file`](https://github.com/zijianchen98/AGIN/blob/main/README.md). You can also directly download it from [here](https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvYy8wYzIxOTFjYjAxY2JmMDAyL0VjX2xuY0N4R1paQ25qb2NUNDAtc24wQjVTcmcwekZuNkgtOTVFb3B2eEpJelE%5FZT10YWlUOVI&cid=0C2191CB01CBF002&id=C2191CB01CBF002%21sc09de5cf19b142969e3a1c4f8d3eb27d&parId=C2191CB01CBF002%21s10403dccf95e47979e25d26520e84d7b&o=OneUp) (same link). Please place these weights in a new folder called `./models/04_NN-fine-tuned-JOINT/jointweights/`. 
  - Also, please download the [JOINT.py file](https://github.com/zijianchen98/AGIN/blob/main/JOINT/models/JOINT.py) from Chen et al.'s ([pdf](https://ieeexplore.ieee.org/document/10771738)) [official implementation](https://github.com/zijianchen98/AGIN/tree/main) and place this file in the `./models/04_NN-fine-tuned-JOINT/` directory.
+ - Our fine tuned weights for JOINT can be downloaded from [this](https://drive.google.com/file/d/1HZFnbEFmFAajZpe_foK-XuL_IQi2UVV1/view) Google Drive Folder. Please place them in the `./models/04_NN-fine-tuned-JOINT/weights/` directory while testing the model.
 
 
 
