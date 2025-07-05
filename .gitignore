@@ -1,1 +1,4 @@
 models/04_NN-fine-tuned-JOINT/weights/resnet50_joint-weights.pth
+models/04_NN-fine-tuned-JOINT/jointweights/
+models/04_NN-fine-tuned-JOINT/JOINT.py
+.vscode/
